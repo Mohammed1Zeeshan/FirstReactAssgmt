@@ -14,7 +14,7 @@ useEffect(()=>{
 
  const loadData=async ()=>{
    const res= await axios.get('http://localhost:3003/users')
-   console.log(res.data);
+  //  console.log(res.data);
    setUsers(res.data);
  } 
  const deleteuser=async id=>{
