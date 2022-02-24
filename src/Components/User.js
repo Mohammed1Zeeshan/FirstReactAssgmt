@@ -36,25 +36,7 @@ function User()
     <div className='container'>
         
         <div>User</div>
-        {/* <div className='w-75 mx-auto shadow p-5'> 
-        <h2>Edit User</h2>
-        <Form>
-           
-        <div className='form-group'>
-        <Input type='text'  placeholder="enter id"  name="id" className='form-control form-control-lg'
-        value={id} onChange={e=>onInputChange(e)} ></Input>
-        </div>
-        <div className='form-group'>
-        <Input type='text'  placeholder="enter key" name="Key" className='form-control form-control-lg'
-        value={Key} onChange={e=>onInputChange(e)}></Input>
-        </div>
-        <div className='form-group'> 
-        <Input type='text'  placeholder="enter value" name="Value" className='form-control form-control-lg'
-         value={Value} onChange={e=>onInputChange(e)} ></Input>
-        </div>
-        <Button onClick={Submit}>Update</Button>
-        </Form>
-        </div> */}
+        
         <div className='w-75 mx-auto shadow p-5'>
         <Container>
          <Card>
