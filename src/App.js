@@ -4,7 +4,7 @@ import Header from './Components/Header';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Users from './Components/Users';
 import AddUser from './Components/AddUser';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import User from './Components/User';
 import Edit from './Components/Edit';
 import Contact from './Pages/Contact';
