@@ -1,5 +1,4 @@
-//<></>
-import logo from './logo.svg';
+
 import './App.css';
 import Home from './Components/Home';
 import Header from './Components/Header';
@@ -9,7 +8,7 @@ import AddUser from './Components/AddUser';
 import { Col, Container, Row } from 'react-bootstrap';
 import User from './Components/User';
 import Edit from './Components/Edit';
-import Contact from './Components/Contact';
+import Contact from './Pages/Contact';
 
 
 
@@ -24,7 +23,7 @@ function App() {
       <Users/>
         </Col>
         <Col md='6'>  
-        <Route exact path='/'><Home/> </Route>
+        {/* <Route exact path='/'><Home/> </Route> */}
         <Route exact path='/Edit/:id'><Edit/> </Route>
         <Route exact path='/user/:id'><User/> </Route>
         <Route exact path='/users/add' > <AddUser></AddUser></Route>
