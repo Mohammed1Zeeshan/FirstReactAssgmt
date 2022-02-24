@@ -1,6 +1,5 @@
 
-import './App.css';
-import Home from './Components/Home';
+
 import Header from './Components/Header';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Users from './Components/Users';
@@ -12,10 +11,12 @@ import Contact from './Pages/Contact';
 
 
 
+
+
 function App() {
   return (
     <BrowserRouter>
-    <div className="App">
+    <div className="App" >
     <Header/>
     <Row>
       <Col md='6'>
@@ -23,18 +24,13 @@ function App() {
       <Users/>
         </Col>
         <Col md='6'>  
-        {/* <Route exact path='/'><Home/> </Route> */}
+   
         <Route exact path='/Edit/:id'><Edit/> </Route>
         <Route exact path='/user/:id'><User/> </Route>
         <Route exact path='/users/add' > <AddUser></AddUser></Route>
         <Route exact path='/Contact' > <Contact></Contact></Route>
         </Col>  
-        {/* <Col md='3'>
-        
-       
-        </Col> */}
       </Row>
-     
     </div>
     </BrowserRouter>
   );

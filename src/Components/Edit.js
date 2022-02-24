@@ -5,12 +5,12 @@ import { useHistory , useParams } from 'react-router-dom';
 import {Link} from 'react-router-dom';
 
 
-import { Button, Container, FormGroup, Input ,Form} from "reactstrap";
+import { Button, Input ,Form} from "reactstrap";
 
 function Edit()
 
 {
-   const historyy=useHistory()
+   const history=useHistory()
    
     const [user,setUser]=useState({
         id:'',
@@ -28,7 +28,7 @@ function Edit()
           e.preventDefault();
           
           await axios.put(`http://localhost:3003/users/${id}`,user)
-          historyy.push('')
+          history.push('')
           
     }
     const {a}=useParams();

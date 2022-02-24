@@ -1,6 +1,6 @@
 import React from 'react'
-import { Container, Nav, Navbar, NavbarBrand, NavItem } from 'react-bootstrap'
-import { Link, NavLink } from 'react-router-dom'
+import { Container, Nav, Navbar} from 'react-bootstrap'
+import { Link} from 'react-router-dom'
 
 import Home from './Home'
 

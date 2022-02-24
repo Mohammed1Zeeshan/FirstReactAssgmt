@@ -1,10 +1,8 @@
-// {} ()
+
 import React, { useEffect, useState } from 'react'
 import axios from 'axios';
-import { Link, NavLink } from 'react-router-dom'
-import { Button, TabContainer, Table } from 'react-bootstrap';
-// import {getuserlist} from './Service'
-
+import { Link} from 'react-router-dom'
+import { Button,Table } from 'react-bootstrap';
 
 function Users()
 {

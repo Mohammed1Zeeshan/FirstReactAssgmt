@@ -5,7 +5,7 @@ import { useHistory } from 'react-router-dom';
 import {Link} from 'react-router-dom';
 
 
-import { Button, Container, FormGroup, Input ,Form} from "reactstrap";
+import { Button,  Input ,Form} from "reactstrap";
 
 function AddUser()
 
