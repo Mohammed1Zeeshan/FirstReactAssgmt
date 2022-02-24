@@ -4,7 +4,7 @@ import './App.css';
 import Home from './Components/Home';
 import Header from './Components/Header';
 import { BrowserRouter, Route } from 'react-router-dom';
-import Userr from './Components/Userr';
+import Users from './Components/Users';
 import AddUser from './Components/AddUser';
 import { Col, Container, Row } from 'react-bootstrap';
 import User from './Components/User';
@@ -21,7 +21,7 @@ function App() {
     <Row>
       <Col md='6'>
       {/* <Route exact path='/all'> <Userr/></Route> <!-- avoided inorder to keep it fixed  on the page  -->*/}
-      <Userr/>
+      <Users/>
         </Col>
         <Col md='6'>  
         <Route exact path='/'><Home/> </Route>

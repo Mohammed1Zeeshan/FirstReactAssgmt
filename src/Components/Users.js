@@ -6,7 +6,7 @@ import { Button, TabContainer, Table } from 'react-bootstrap';
 // import {getuserlist} from './Service'
 
 
-function Userr()
+function Users()
 {
   const [users,setUsers]=useState([]);
 
@@ -57,4 +57,4 @@ useEffect(()=>{
   )
 }
 
-export default Userr
+export default Users
